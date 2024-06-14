@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ARXTestProject", "ARXTestProject\ARXTestProject.vcxproj", "{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_ZRX2024|x64 = Debug_ZRX2024|x64
+		Debug_ZRX2024|x86 = Debug_ZRX2024|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Debug_ZRX2024|x64.ActiveCfg = Debug_ZRX2024|x64
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Debug_ZRX2024|x64.Build.0 = Debug_ZRX2024|x64
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Debug_ZRX2024|x86.ActiveCfg = Debug_ZRX2024|Win32
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Debug_ZRX2024|x86.Build.0 = Debug_ZRX2024|Win32
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Debug|x64.ActiveCfg = Debug|x64
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Debug|x64.Build.0 = Debug|x64
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Debug|x86.ActiveCfg = Debug|Win32
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Debug|x86.Build.0 = Debug|Win32
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Release|x64.ActiveCfg = Release|x64
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Release|x64.Build.0 = Release|x64
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Release|x86.ActiveCfg = Release|Win32
+		{7854D6EE-F4F3-48B5-8E47-D0FBCD8DF542}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0301601B-53CF-4877-82A7-DE8912E26A05}
+	EndGlobalSection
+EndGlobal
