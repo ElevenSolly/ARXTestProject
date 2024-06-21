@@ -39,6 +39,8 @@
 
 #include "MyEntity.h"
 
+#include "MapTest1.h"
+
 //-----------------------------------------------------------------------------
 #define szRDS _RXST("")
 
@@ -75,6 +77,7 @@ public:
 		acedRegCmds->addCommand(_T("TestProject"), _T("convert_All"), _T("convert_All"), ACRX_CMD_MODAL | ACRX_CMD_NOPAPERSPACE, Test15, NULL, -1, ArxTestProjectDLL.ModuleResourceInstance());
 		acedRegCmds->addCommand(_T("TestProject"), _T("convert_LayerList"), _T("convert_LayerList"), ACRX_CMD_MODAL, Test16, NULL, -1, ArxTestProjectDLL.ModuleResourceInstance());
 		acedRegCmds->addCommand(_T("TestProject"), _T("convert_Selected"), _T("convert_Selected"), ACRX_CMD_MODAL, Test17, NULL, -1, ArxTestProjectDLL.ModuleResourceInstance());
+		acedRegCmds->addCommand(_T("TestProject"), _T("MapTest1"), _T("MapTest1"), ACRX_CMD_MODAL, MapTest1, NULL, -1, ArxTestProjectDLL.ModuleResourceInstance());
 
 		return (retCode) ;
 	}

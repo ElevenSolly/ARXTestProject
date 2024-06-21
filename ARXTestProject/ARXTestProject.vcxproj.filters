@@ -1,72 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件\inc">
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="inc\inc">
       <UniqueIdentifier>{83e54d34-d6e2-4835-96d0-9f7cc2c8e639}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\src">
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\src">
       <UniqueIdentifier>{966d522b-54f6-4c81-b2cf-04be28822278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Map">
+      <UniqueIdentifier>{6e2da834-6364-403e-86e8-2722268c42b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Map">
+      <UniqueIdentifier>{06307c99-7d28-4d7e-b756-5b1dc1f1d9c8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ARXTestProject.cpp">
-      <Filter>源文件</Filter>
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
-      <Filter>源文件</Filter>
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\TestCom.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
     </ClCompile>
     <ClCompile Include="src\ArxGlobalFuncs.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
     </ClCompile>
     <ClCompile Include="src\CustomTransient.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
     </ClCompile>
     <ClCompile Include="src\MyDoubleClickEdit.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
     </ClCompile>
     <ClCompile Include="src\Test1.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
     </ClCompile>
     <ClCompile Include="src\Test2.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
     </ClCompile>
     <ClCompile Include="src\Test3.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
     </ClCompile>
     <ClCompile Include="src\Test4.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
     </ClCompile>
     <ClCompile Include="src\TestWblock.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
     </ClCompile>
     <ClCompile Include="acrxEntryPoint.cpp">
-      <Filter>源文件</Filter>
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\MyGiDrawableOverrule.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
     </ClCompile>
     <ClCompile Include="src\MyEntity.cpp">
-      <Filter>源文件\src</Filter>
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\MapTest1.cpp">
+      <Filter>src\Map</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ARXTestProject.def">
-      <Filter>源文件</Filter>
+      <Filter>src</Filter>
     </None>
     <None Include="res\ARXTestProject.rc2">
       <Filter>资源文件</Filter>
@@ -74,52 +83,55 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
-      <Filter>头文件</Filter>
+      <Filter>inc</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
+      <Filter>inc</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
-      <Filter>头文件</Filter>
+      <Filter>inc</Filter>
     </ClInclude>
     <ClInclude Include="ARXTestProject.h">
-      <Filter>头文件</Filter>
+      <Filter>inc</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
-      <Filter>头文件</Filter>
+      <Filter>inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\ArxGlobalFuncs.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\CustomTransient.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\DocData.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\MyDoubleClickEdit.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\Test1.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\Test2.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\Test3.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\Test4.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\TestCom.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\MyGiDrawableOverrule.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\MyEntity.h">
-      <Filter>头文件\inc</Filter>
+      <Filter>inc\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Map\MapTest1.h">
+      <Filter>inc\Map</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
